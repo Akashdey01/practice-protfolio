@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+	background-color: #f90a0aa1;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/* ----- header styles ----- */
+
+.header img{
+    width: 100%;
+    height: auto;
+	opacity: 0.4;
+}
+.header .header-item {
+	position: absolute;
+	top: 40%;
+	left: 25%;
+	text-align: center;
+	width: 50%;
+}
+.header-title {
+	font-weight: 800;
+	font-size: 50px;
+}
+.header-description{
+	font-size: 17px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* ---- donate today styles ---- */
+
+.dontate-today{
+	margin: 100px 220px;
+}
+.donate-title{
+	text-align: center;
+}
+
+
