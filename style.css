@@ -3,16 +3,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.btn-primary {
-	background-color: #f90a0aa1;
-	color: white;
-	border: none;
-	padding: 10px 15px;
-	border-radius: 5px;
-	font-size: 20px;
-	font-weight: 600;
-}
-
 /* ----- header styles ----- */
 
 .header img{
@@ -36,14 +26,66 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+.header-btn {
+	background-color: #f90a0aa1;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 600;
+}
 
 /* ---- donate today styles ---- */
 
-.dontate-today{
-	margin: 100px 220px;
+.donate-today{
+	margin: 30px 200px;
 }
-.donate-title{
+.donate-today-container{
+	padding: 70px 200px;
+}
+.praimary-title {
 	text-align: center;
+	font-weight: 700;
+	font-size: 30px;
 }
+.praimary-description{
+	text-align: center;
+	color: lightslategray;
+	margin: 30px 30px;
+}
+.donate-today-container ul{
+	display: flex;
+}
+.donate-today-container ul li {
+	list-style-type: none;
+	background-color: lightgrey;
+	padding: 30px 34px;
+	margin-left: 10px;
+	border: 1px solid lightgrey;
+	font-weight: 700;
+	font-size: 17px;
+	border-radius: 5px;
+}
+.donate-today-container ul li:hover{
+	border: 2px solid #f90a0aa1;
+	color: #f90b0bf8;
+	background: #febbc5ee;
+}
+.donate-border{
+	color:#d3d3d354;
+}
+.donate-btn {
+	background-color: #f90a0aa1;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 20px;
+}
+
 
 
