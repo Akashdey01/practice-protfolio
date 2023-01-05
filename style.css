@@ -121,4 +121,79 @@
 	margin-bottom: 10px;
 }
 
+/* ---- depend donation style ---- */
+.depend-donation{
+	margin: 10px 300px;
+}
+.depend-donation img{
+	width:100%;
+}
+.depend-maincol{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.depend-maincol .left-column{
+	width: 45%;
+	margin-right: 7%;
+}
+.depend-maincol .right-column{
+	width:45%;
+}
+.depend-donation h2{
+	font-weight: 800;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.depend-donation p{
+	color: lightslategray;
+}
+.depend-donation .depend-btn{
+	background-color: #f90a0aa1;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+/* ---- They need us section ---- */
+
+.need-section {
+	margin: 60px 300px;
+}
+.need-section .need-maincol img{
+	width: 100%;
+}
+.need-maincol{
+	display: flex;
+} 
+.need-maincol .left-column{
+	width: 40%;
+	margin-right: 7%;
+}
+.need-maincol .right-column{
+	width:50%;
+}
+.need-maincol .right-column h2{
+	font-weight: 800;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.need-maincol .right-column p{
+	color: lightslategray;
+}
+.need-maincol .need-btn{
+	background-color: #f90a0aa1;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
 
