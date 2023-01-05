@@ -56,6 +56,7 @@
 }
 .donate-today-container ul{
 	display: flex;
+	/* justify-content: space-between; */
 }
 .donate-today-container ul li {
 	list-style-type: none;
@@ -87,5 +88,37 @@
 	margin-top: 20px;
 }
 
+/* ---- our donate plan styles ---- */
+
+/* .our-donate{
+	margin: 10px 200px
+} */
+.donate-plan-all-container{
+	padding: 30px 300px;
+}
+.donate-plan-container{
+	display: flex;
+	gap:20px;
+	padding: 20px 20px;
+}
+.donate-plan-item-1{
+	background-color: #d9eaf0e2;
+	padding: 35px 15px;
+	border-radius: 5px;
+}
+.donate-plan-item-2{
+	background-color: #edd4d8;
+	padding: 35px 15px;
+	border-radius: 5px;
+}
+.donate-plan-item-3{
+	background-color: #f0f0c1;
+	padding: 35px 15px;
+	border-radius: 5px;
+}
+.donate-plan-title{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 
